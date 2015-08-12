@@ -1,0 +1,5 @@
+# bin/watch
+# set up watcher for todo
+
+# TODO: make this relative
+watchman -- trigger ~/repos/rtm/upward upward-todo index.html 'src/*.js' node_modules/upward/index.js 'node_modules/upward/src/*.js' -- bash bin/build

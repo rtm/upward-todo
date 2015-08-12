@@ -1,0 +1,9 @@
+# .gitignore for upward-todo
+
+# omit imported components
+node_modules
+bower_modules
+npm-debug.log
+
+# omit build artifacts
+dist/
